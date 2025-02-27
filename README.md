@@ -20,3 +20,11 @@ This repository contains code and notes taken from [free course at freeCodeCamp]
       4. Indexing
       5. Retrieval
       6. Generation
+6. [Embeddings: What they are and why they matter by Simon Willison, an expert in LLMs](https://simonwillison.net/2023/Oct/23/embeddings/)
+7. [Dense Vectors: Capturing Meaning with Code by Pinecone, a vector database company](https://www.pinecone.io/learn/series/nlp/dense-vector-embeddings-nlp/)
+8. [The Basics of AI-Powered (Vector) Search by Cameron Wolfe](https://cameronrwolfe.substack.com/p/the-basics-of-ai-powered-vector-search)
+9. Embedding:
+   1.  Loading
+   2.  Splitting
+   3.  Embedding
+![Loading, splitting and embedding](img/schematic-embedding.png)
