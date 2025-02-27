@@ -28,3 +28,5 @@ This repository contains code and notes taken from [free course at freeCodeCamp]
    2.  Splitting
    3.  Embedding
 ![Loading, splitting and embedding](img/schematic-embedding.png)
+10. [App to demonstrate chunking/splitting strategies](https://chunkviz.up.railway.app/)
+11. [The 5 levels of text splitting for retrieval by Greg Kamradt](https://www.youtube.com/watch?v=8OJC21T2SL4)
