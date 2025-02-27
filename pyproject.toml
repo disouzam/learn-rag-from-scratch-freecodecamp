@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-rag-from-scratch-freecodecamp"
+version = "0.1.0"
+description = "Code and notes taken from freeCodeCamp course in video format - most code was written by Lance Martin (from LangChain)"
+authors = ["Dickson Souza <36424026+disouzam@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode= false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
