@@ -16,6 +16,7 @@ langchain-openai = "^0.3.7"
 langchainhub = "^0.1.21"
 chromadb = "^0.6.3"
 langchain = "^0.3.19"
+beautifulsoup4 = "^4.13.3"
 
 
 [build-system]
