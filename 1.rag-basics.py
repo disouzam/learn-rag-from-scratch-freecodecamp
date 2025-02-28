@@ -51,5 +51,14 @@ def _(mo):
     return
 
 
+@app.cell
+def _():
+    import os
+    os.environ['LANGCHAIN_TRACING_V2'] = 'true'
+    os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
+    os.environ['LANGCHAIN_API_KEY'] = '<your-api-key>'
+    return (os,)
+
+
 if __name__ == "__main__":
     app.run()
