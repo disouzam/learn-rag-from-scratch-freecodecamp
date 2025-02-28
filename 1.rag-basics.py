@@ -11,8 +11,43 @@ def _():
 
 
 @app.cell(hide_code=True)
-def _():
-    print("First marimo notebook")
+def _(mo):
+    mo.md(
+        """
+        (1) Packages
+
+        - pip install langchain_community
+        - pip install tiktoken
+        - pip install langchain-openai
+        - pip install langchainhub
+        - pip install chromadb
+        - pip install langchain
+        """
+    )
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(
+        r"""
+        (2) LangSmith
+
+        [https://docs.smith.langchain.com/](https://docs.smith.langchain.com/)
+        """
+    )
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(
+        r"""
+        ## Part 1: Overview
+
+        RAG quickstart
+        """
+    )
     return
 
 
